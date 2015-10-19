@@ -14,6 +14,9 @@ def user(name):
 def threejs_demo1():
 	return render_template('webDemo/threejs1.html')
 
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
 
 if __name__=="__main__":	
 	app.run()

@@ -1,0 +1,39 @@
+nav ul{
+	margin: auto;
+	background-color: rgb(0, 153, 255);
+	list-style: none;
+	padding:0;
+	width:300px;
+	border:1px solid rgb(51, 51, 153);
+	text-align: center;
+}
+
+nav ul li{
+
+	border-bottom: 1px solid rgb(51, 51, 153);
+	padding:5px;
+}
+
+nav ul li:last-child{
+	border-bottom: 0;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	text-decoration:underline;
+}
+
+h1{
+	color: rgb(0,173,234);
+}
+
+h2{
+	color: rgb(54,66,74);
+}
+body{
+	text-align: center;
+}

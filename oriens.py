@@ -14,6 +14,10 @@ def user(name):
 def threejs_demo1():
 	return render_template('webDemo/threejs1.html')
 
+@app.route("/webDemo/rgb20x")
+def rgb20x():
+	return render_template('webDemo/rgb20x.html')
+
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404

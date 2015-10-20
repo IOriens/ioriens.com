@@ -37,3 +37,9 @@ h2{
 body{
 	text-align: center;
 }
+.footer{
+ font-size: 13px; 
+ color: #888; 
+ text-align: right; 
+ margin-top: 25px; 
+}

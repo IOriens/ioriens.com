@@ -29,17 +29,19 @@ nav ul li a:hover{
 
 h1{
 	color: rgb(0,173,234);
+	font-size: xx-large;
 }
 
 h2{
 	color: rgb(54,66,74);
+	font-size: large;
 }
 body{
 	text-align: center;
 }
+
 .footer{
  font-size: 13px; 
  color: #888; 
- text-align: right; 
  margin-top: 25px; 
 }

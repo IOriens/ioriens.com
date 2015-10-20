@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>A Simple Three.js Page</title>
+	<script src="/static/three.min.js"></script>
+	<script>
+	function onLoad()
+	{
+		var container=document.getElementById("container");
+		var renderer=new THREE.WebGLRenderer();
+		renderer.setSize(container.offsetWidth,container.offsetHeight);
+		container.appendChild(renderer.domElement);
+
+		var scene = new THREE.Scene();
+		var camera = new THREE.PerspectiveCamera(45,container.offsetWidth/container.offsetHeight,1,4000);
+		camera.position.set(0,0,2);
+		scene.add(camera);
+		var geometry =new THREE.PlaneGeometry(1,1);
+		var mesh=new THREE.Mesh(geometry,new THREE.MeshBasicMaterial({color:0xadea}))
+		scene.add(mesh);
+		renderer.render(scene,camera);
+	}
+	</script>
+</head>
+<body onLoad="onLoad();">
+	<div id="container" style="width:500px;height:500px;background-color:#000000">
+	</div>
+<body>
+</html>

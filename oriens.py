@@ -14,6 +14,14 @@ def user(name):
 def threejs_demo1():
 	return render_template('webDemo/threejs1.html')
 
+@app.route("/webDemo/threejs2")
+def threejs_demo2():
+	return render_template('webDemo/threejs2_white_rect.html')
+
+@app.route("/webDemo/threejs3")
+def threejs_demo3():
+	return render_template('webDemo/threejs3_rotate3dcube_withpic.html')
+
 @app.route("/webDemo/rgb20x")
 def rgb20x():
 	return render_template('webDemo/rgb20x.html')

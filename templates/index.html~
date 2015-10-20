@@ -33,7 +33,7 @@
 			</li>
 		</ul>
 	</nav>
-	<p class="footer">		
+	<div  class="footer">		
 
 			
 				Powered by <a href="http://flask.pocoo.org/">Flask</a>.
@@ -42,7 +42,7 @@
 				Free File Storage on <a href="https://portal.qiniu.com/signup?code=3lfihzmcly4wi">Qi Niu</a>.
 			
 
-	</p>
+	</div>
 
 </body>
 </html>

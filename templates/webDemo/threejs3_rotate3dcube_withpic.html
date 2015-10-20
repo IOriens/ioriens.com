@@ -5,6 +5,13 @@
 
 	<link rel="stylesheet" href="http://7xnhtt.com1.z0.glb.clouddn.com/webglbook.css" /> 
 	<script src="http://7xnhtt.com1.z0.glb.clouddn.com/three.min.js"></script>
+	<style>
+		#container{
+			margin: auto;
+			left: 0;right: 0;
+			width:70%; height:70%; position:absolute;
+		}
+	</style>
 	<script>	
 	var renderer = null, 
 		scene = null, 
@@ -81,7 +88,7 @@
 </head>
 <body onLoad="onLoad();" style="font-size:large;" >
 	<center><h1 style="font">Welcome to WebGL!</h1></center>
-    <div id="container" style="width:100%; height:70%; position:absolute;" ></div>
+    <div id="container"  ></div>
 	<div id="prompt" style="width:100%; height:6%; bottom:0; text-align:center; position:absolute;">Click to animate the cube</div>
 </body>
 </html>

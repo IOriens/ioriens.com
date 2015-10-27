@@ -11,26 +11,29 @@
 </head>
 <body>
 
-	<nav class="w3-sidenav w3-white w3-card-2" style="display:none">
+	<!-- side-navigator -->
+	<nav class="w3-sidenav w3-white w3-card-2 w3-animate-left w3-center" style="display:none">
 		<ul class="w3-ul">
 			<li><a href="javascript:void(0)" 
 				onclick="w3_close()"
-				class="w3-closenav w3-xlarge w3-center">Close &times;</a></li>
+				class="w3-closenav w3-xxxlarge w3-text-theme">Close &times;</a></li>
 				<p>Web Demos:</p>
-				<li><a href="webDemo/threejs1" class="w3-large w3-center">3D Rotate Cube(Three.js)</a></li>
-				<li><a href="webDemo/threejs3" class="w3-large w3-center">3D Rotate Cube With Pic(Three.js)</a></li>
+				<li><a href="webDemo/threejs1" class="w3-xlarge w3-center">3D Rotate Cube(Three.js)</a></li>
+				<li><a href="webDemo/threejs3" class="w3-xlarge w3-center">3D Rotate Cube With Pic(Three.js)</a></li>
 				<p>Useful Tools:</p>
-				<li><a href="webDemo/rgb20x" class="w3-large w3-center">RGB to 0x Format</a></li>
+				<li><a href="webDemo/rgb20x" class="w3-xlarge w3-center">RGB to 0x Format</a></li>
 			</ul>
 		</nav>
 
 		<div id="main">
 
-			<header class="w3-container w3-black w3-row">
-				<span class="w3-opennav w3-xxlarge w3-col s1" onclick="w3_open()">&#9776;</span>
-				<p class="w3-rest w3-large">&nbsp;Welcome to Oriens's web playground.</p>
+			<!-- Header -->
+			<header class="w3-container w3-theme w3-padding">				
+				<i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-opennav"></i> 
+				<p class="w3-xxlarge w3-center">&nbsp;Welcome to Oriens's web playground.</p>
 			</header>
 
+			<!-- Body -->
 			<div class="w3-image w3-animate-opacity">
 				<img class="testimg" src="http://7xnhtt.com1.z0.glb.clouddn.com/anime1.jpg" alt="boat" style="width:100%;">
 
@@ -38,13 +41,11 @@
 
 			<!-- Footer -->
 			<footer id="footer1" class="w3-container w3-padding-10 w3-theme w3-center w3-footer">
-
 				<h4>Follow Me On</h4>
-
 				<a class="w3-btn-floating w3-teal" href="https://github.com/IOriens" title="GitHub"><i class="fa fa-github"></i></a>
 				<a class="w3-btn-floating w3-teal" href="http://blog.csdn.net/infinite8125" title="CSDN"><i class="fa iconfont">&#xe67d;</i></a>			
 				<!-- <p>&#169; Copyright Oriens</p> -->
-				<p class="w3-tiny">Powered by <a href="http://flask.pocoo.org/">Flask</a>.						
+				<p class="w3-tiny">Powered by <a href="http://flask.pocoo.org/">Flask</a>.				
 					Free File Storage on <a href="https://portal.qiniu.com/signup?code=3lfihzmcly4wi">Qi Niu</a>.</p>
 				</footer>
 			</div>			

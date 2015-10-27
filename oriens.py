@@ -6,9 +6,10 @@ app = Flask(__name__)
 def index():
 	return render_template('new.html')
 
-@app.route("/user/<name>")
-def user(name):
-	return render_template('user.html',name=name)
+@app.route("/version1")
+def old_index_1():
+	return render_template('index.html')
+
 
 @app.route("/webDemo/threejs1")
 def threejs_demo1():

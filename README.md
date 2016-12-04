@@ -1,6 +1,6 @@
 ## Intro
-Pages written when I started learing FE.
+Pages written since when I started learing FE.
 
 ## Visit on
-[Newer]()
-[Old Version]()
+[Newer](http://rawgit.com/IOriens/ioriens.com/master/src/index.html)
+[Old Version](http://rawgit.com/IOriens/ioriens.com/master/src/old.html)
